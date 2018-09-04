@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block titulo %}
+{% endblock %}
+
+{% block content %}
+
+	<h2>{{ msj }}</h2>
+	<form class="form-sigin" action="" action="" method="POST">
+
+		{% csrf_token %}
+		<div class="form-group">
+		{{ formulario.as_p }}
+		</div>
+		<button style="margin-bottom: 10px;" type="submit" class="btn btn-outline-success">Enviar</button>
+	</form>
+{% endblock %}

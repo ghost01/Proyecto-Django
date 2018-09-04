@@ -1,0 +1,103 @@
+.inicio{
+	color: #fff;
+	
+}
+.btn.btn-light{
+	
+}
+.agregar{
+	color: #fff;	
+}
+.lista{
+	color: #fff;
+	
+
+}
+.registrar{
+	color: #fff;
+}
+
+.crear{
+	color: #fff;
+	
+}
+
+body{
+	margin-left: 0.5px;
+	margin-right: 0.5px;
+	margin:90px auto;
+	display:block;
+
+}
+.container-fluid{
+	color: #957bbe;
+}
+
+.form-sigin{
+	width: 70%;
+	max-width: 200px;
+	padding: 10px;
+	margin: auto;
+}
+.ver{
+	color: white;
+}
+.badge.badge-info{
+	height: 20px;
+
+}
+.bienvenida{
+	text-align: center;
+	color: #D1C5DB;
+}
+.lista1{
+	color: #ffc107;
+}
+.form-control{
+	width: 70%;
+	max-width: 250px;
+	padding: 10px;
+	margin-left: 20px;
+}
+ul {
+  padding:0 4 4 0;
+  margin:0 0 0 0;
+  margin: auto;
+}
+ul li {
+  list-style:none;
+  margin-bottom:20px;
+  margin: auto;
+}
+ul li img {
+  cursor: pointer;
+  margin: auto;
+}
+.carousel.slide{
+	margin: auto;
+}
+.btn.btn-outline-success{
+	margin-right: 10px;
+}
+.cuerpo1{
+	background: url(/static/imagenes/fondaco3.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.btn.btn-info{
+	margin-bottom: 10px;
+}
+.navbar.fixed-top.navbar-dark.bg-dark{
+	margin: fixed;
+	color: white;
+}
+.text-capitalize{
+	margin-left: -70px;
+	margin-top: 6px;
+}
+.texto2{
+	color: #fff;
+}
+.registro1{
+	color: #fff;
+}

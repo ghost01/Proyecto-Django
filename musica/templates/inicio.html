@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="/static/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="jquery.bsPhotoGallery.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="/static/css/estilo.css">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="jquery.bsPhotoGallery.js"></script>
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('ul.first').bsPhotoGallery({
+          "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+          "hasModal" : true,
+          // "fullHeight" : false
+        });
+      });
+    </script>
+   
+
+{% endblock %}
+
+{% block content %}
+<p class="texto2">
+	¡¡Gracias por ingresar a mi página web sobre productos y/o accesorios de Rock, Metal, Grunge y mucho más!!
+</p>
+<br>
+<p>
+	Esperamos que la lista de productos ingresados sean de su gusto, navegue por las diferentes páginas que tenemos para ofrecerle.
+</p>
+<br>
+<p>
+	Si quiere editar o eliminar algunos de nuestros productos, tendrá que registrarse como usuario en nuestra página, tenga en cuenta de que sólo los administradores tienen permiso sobre otros usuarios así como también de lo que estos interactuen atraves de las páginas.
+</p>
+<br>
+
+        <ul class="row first">
+            <li>
+                <img width="360" height="300" alt="Rocking the night away"  src="/static/imagenes/colar/cola1.jpg">
+                
+            </li>
+            <li >
+                <img width="360" height="300" alt="Colors"  src="/static/imagenes/colar/cola3.jpg">
+                 
+            </li>
+            <li >
+                <img width="360" height="300"  alt="Retro party"  src="/static/imagenes/colar/cola4.jpg">
+                
+            </li>
+            <li >
+                <img width="360" height="300"  alt="Technology soup"  src="/static/imagenes/colar/cola5.jpg">
+                
+            </li>
+            <li >
+                <img width="360" height="300" alt="Nature shot"  src="/static/imagenes/colar/cola7.jpg">
+                
+            </li>
+            <li >
+                <img width="360" height="300"  alt="Kid with camera" src="/static/imagenes/colar/cola8.jpg" data-bsp-large-src="https://demo.michaelsoriano.com/images/photodune-1471528-insant-camera-kid-large.jpg">
+                
+            </li>
+            <li >
+                <img width="360" height="300"  alt="Relax and Chill" src="/static/imagenes/colar/cola9.jpg">
+                
+            </li>
+            <li >
+                <img  width="360" height="300" alt="Cool colors" src="/static/imagenes/colar/cola10.jpg">
+                
+            </li>
+            <li >
+                <img  width="360" height="300" alt="Culture business" src="/static/imagenes/colar/cola12.jpg">
+                
+            </li>
+  </ul>
+
+
+	
+{% endblock %}

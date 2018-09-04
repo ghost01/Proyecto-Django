@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+
+{% endblock %}
+
+{% block content %}
+	<form action="" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ formulario_1.as_p }}
+		{{ formulario_2.as_p }}
+		<button style="margin-bottom: 10px;" type="submit" class="btn btn-outline-success">Crear Perfil</button>
+	</form>
+
+{% endblock %}

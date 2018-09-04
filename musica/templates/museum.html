@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+	{% block title %}
+	<title align="center">Bienvenido</title>
+	{% endblock %}
+
+
+	{% block content %}
+
+	
+	{% if info_enviado %}
+	<h3 style="color: #AEB5BD;">¡¡Gracias por su colaboración!!</h3>
+	<p style="font-family: cursive;"> Su correo: </p>
+		{{ email }}
+	<p style="font-family: cursive;"> Título: </p>
+		{{ title }}
+	<p style="font-family: cursive;"> Texto: </p>
+		{{ text }}
+	{% else %}
+		<form action="" method="POST">
+			{% csrf_token %}
+			{{ formulario.as_p }}
+			<button style="margin-bottom: 10px;" type="submit" class="btn btn-outline-success">Enviar</button>
+		</form>
+
+		{% endif %}
+		{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+	{% block titulo %}
+		
+	{% endblock %}
+	
+	{% block content %}
+		<p class="ver">
+			Nombre Album:
+		</p>
+		<p>
+			{{ p.nombre }}
+		</p>
+	
+		<p class="ver">
+			Descripción: 
+		</p>
+			{{ p.descripcion }}
+		<p class="ver">
+			Precio: 
+		</p>
+			${{ p.precio }}
+		<p class="ver">
+			Stock: 
+		</p>
+			{{ p.stock }} unidades
+		<p class="ver">
+			Marca:
+		</p>
+			{{ p.marca }} 
+		<p class="ver">
+			Imagen:
+		</p>
+		<p>
+			{{p.replica}}
+		</p>
+		<br>
+		<img width="200" height="200" src="/media/{{ p.imagen}}">
+		</br>
+			<br>
+		<a href="/lista_producto" class="btn btn-info">Regresar a la lista</a>
+			</br>
+	{% endblock %}
